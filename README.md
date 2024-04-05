@@ -19,7 +19,8 @@
 <a name="endToc"></a>
 
 # Resources
--   [https://github.com/yanndebray/matlab\-with\-python\-book](https://github.com/yanndebray/matlab-with-python-book) 
+-  https://www.youtube.com/watch?v=42ZAVJRFLP8&ab_channel=IRISEarthquakeScience
+-  [https://github.com/yanndebray/matlab\-with\-python\-book](https://github.com/yanndebray/matlab-with-python-book) 
 -  [https://www.mathworks.com/videos/large\-data\-in\-matlab\-a\-seismic\-data\-processing\-case\-study\-81792.html](https://www.mathworks.com/videos/large-data-in-matlab-a-seismic-data-processing-case-study-81792.html)  
 -  [https://www.mathworks.com/help/matlab/matlab\_prog/loma\-prieta\-earthquake.html](https://www.mathworks.com/help/matlab/matlab_prog/loma-prieta-earthquake.html)  
 
@@ -271,12 +272,5 @@ geoscatter(T.latitude,T.longitude,T.magnitude,"filled")
 # Export to ipynb and md
 ```matlab
 export('livescript.mlx','README.md');
-```
-
-```matlabTextOutput
-ans = '/MATLAB Drive/earthquake/README.md'
-```
-
-```matlab
-export('')
+export('livescript.mlx','notebook.ipynb');
 ```
